@@ -1,4 +1,4 @@
-# Historical Airplan Crash Insights
+# Historical Airplane Crash Insights
 
 ## Project Overview
 This repository contains documents and resources that gives data-driven overview of aviation accidents, crash patterns, and fatalities across time.
@@ -27,7 +27,7 @@ The final **Interactive dashboard** shows:
 
 The dashboard also shows information:
 
-1. Total number of airplan crash
+1. Total number of airplane crash
 2. Total number of passengers onboard these airplane
 3. Total number of lives of those onboard lost in these crashes
 4. Total number of lives lost onground as a result of these crash
@@ -114,15 +114,21 @@ All transformations were then loaded into **Power BI**.
 - A card is used to visualize the total number of airplane crash, total number of aboard, lives onboard lost, lives lost onground and survivors
 - A clustered column chart is used to represent both visuals showing number of lives lost per year and number of survivors per year, two buttons are added to ease the switch between the two visuls
 - A stacked bar chart is used to visulize the to 10 airplane crash vs lives lost
-- Tww slicer, operator and year are added to filter data on this page according to airplane operator and year
+- Two slicer, operator and year are added to filter data on this page according to airplane operator and year
 - Two navigation buttons are added to allow navigation to page 2 and 3 of the dashboard
 
 #### Page 2
 - A card is used to visulize number of operators, number of airplane types, and total numnber of unique crash location
 - A clustered bar chart is used to visualize airplane type vs lives lost and airplane operators vs lives lost
-- 
+- Two slicer, operator and year are added to filter data on this page according to airplane operator and year
+- Two navigation buttons are added to allow navigation to page 1 and 3 of the dashboard
+
+#### Page 3
+- A route map is used to show flight movement across different cities
+- Three slicers, operator, location and year are added to filter data on this page according to airplane operator and year
+- Two navigation buttons are added to allow navigation to page 1 and 2 of the dashboard
 
 ---
 
 ## Results & Insights
-
+A total of 58,343 airplane crash were found with 1,604,419 passengers onboard across these various aircraft crashes. 1,087,163 of the 1,604,419 passengers that boarded these aircraft lost their lives in the crash with 517,256 people surviving crash. A total of 131,432 people on ground lost their lives as a result of these aircraft crashes. The year 1972 saw the most lives lost as a result of airplane crashes, a total of 45,434 lives were lost. Chita, Siberia in Russia ranks as the city with most lives lost due to plane crash. Aeroflot is the aircraft with the most lives lost by type of aircraft crash and the oerator with most lives lost as a result of airplane crash is Douglas DC-3. 
